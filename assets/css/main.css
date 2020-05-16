@@ -1,0 +1,60 @@
+@font-face {
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  src: url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800;900&family=Roboto:wght@400;500;700;900&display=swap');
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  text-rendering: optimizeLegibility;
+  background-color: #f1f1f1;
+}
+
+/*===============================
+        Header Area
+================================*/
+.header_area {
+  background-image: linear-gradient(to right top, #7b6b79, #74697d, #696980, #5b6982, #4a6982, #4a6983, #4b6984, #4b6985, #5e6986, #6e6984, #7b6980, #846b7b);
+  height: 100vh;
+}
+.navbar {
+  padding-top: 80px;
+  padding-bottom: 140px;
+}
+.header_info {
+  text-align: center;
+  color: #ffffff;
+  padding-top: 140px;
+}
+.header_info .heading  {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: inline-block;
+  border-top: 3px solid #97b4be;
+  border-bottom: 3px solid #97b4be;
+}
+.header_info  h3 {
+ padding-top: 25px;
+ font-family: 'Roboto', sans-serif;
+ font-weight: 400;
+}
+.header_info .heading h1 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 65px;
+  font-weight: 900;
+  letter-spacing: 20px;
+  text-transform: uppercase;
+  display: inline-block;
+}
